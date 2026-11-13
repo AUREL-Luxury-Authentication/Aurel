@@ -1,27 +1,7 @@
-MIT License
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="160" rx="36" fill="#131313"/>
+  <circle cx="80" cy="80" r="54" stroke="#E8C98F" stroke-width="2" opacity="0.75"/>
+  <path d="M52 117V54H77.5C95.3 54 108 66.7 108 84.2C108 101.7 95.3 114.5 77.5 114.5H63.2V117H52ZM63.2 103.4H76.8C88.4 103.4 96 95 96 84.3C96 73.6 88.5 65.2 76.8 65.2H63.2V103.4Z" fill="#F2D8A0"/>
+  <path d="M98 55H115V116H98V55Z" fill="#D7B776"/>
+</svg>
 
-Copyright (c) 2026 AUREL
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-This project is for informational and educational use. It does not provide a
-professional authentication guarantee, and all purchase decisions should still
-include independent expert review when appropriate.
