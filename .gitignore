@@ -1,0 +1,39 @@
+const year = document.getElementById('year');
+
+if (year) {
+  year.textContent = new Date().getFullYear();
+}
+
+const faqButtons = document.querySelectorAll('.faq-item button');
+
+faqButtons.forEach((button) => {
+  const answer = button.nextElementSibling;
+
+  button.addEventListener('click', () => {
+    const expanded = button.getAttribute('aria-expanded') === 'true';
+
+    faqButtons.forEach((itemButton) => {
+      itemButton.setAttribute('aria-expanded', 'false');
+      const itemAnswer = itemButton.nextElementSibling;
+      if (itemAnswer) {
+        itemAnswer.style.maxHeight = null;
+      }
+    });
+
+    if (!expanded) {
+      button.setAttribute('aria-expanded', 'true');
+      if (answer) {
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    }
+  });
+});
+
+const firstFaq = document.querySelector('.faq-item button');
+if (firstFaq) {
+  firstFaq.setAttribute('aria-expanded', 'true');
+  const firstAnswer = firstFaq.nextElementSibling;
+  if (firstAnswer) {
+    firstAnswer.style.maxHeight = firstAnswer.scrollHeight + 'px';
+  }
+}
